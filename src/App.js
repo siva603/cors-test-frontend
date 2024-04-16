@@ -11,16 +11,16 @@ function App() {
     try {
       
 
-      const res2 =   await axios.get("http://localhost:8080/login");
+      const res2 =   await axios.get("https://cros-test-backend.onrender.com/login");
         console.log(res2.data)
 
-      const res3 =   await axios.post("http://localhost:8080/login");
+      const res3 =   await axios.post("https://cros-test-backend.onrender.com/login");
         console.log(res3.data)
 
-      const res1 =   await axios.put("http://localhost:8080/login");
+      const res1 =   await axios.put("https://cros-test-backend.onrender.com/login");
         console.log(res1.data)
 
-      const res4 =   await axios.delete("http://localhost:8080/login");
+      const res4 =   await axios.delete("https://cros-test-backend.onrender.com/login");
         console.log(res4.data)
         
     }
